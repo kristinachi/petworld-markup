@@ -1,0 +1,10 @@
+.tabs-nav {
+  &__btn {
+    color: $secondary;
+    border-color: transparent;
+
+    &.active, &:hover {
+      border-color: $secondary;
+    }
+  }
+}
