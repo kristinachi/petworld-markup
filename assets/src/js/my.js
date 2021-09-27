@@ -10,6 +10,14 @@ jQuery(document).ready(function () {
       {
         breakpoint: 992,
         settings: {
+          slidesToShow: 2,
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
           arrows: false
         }
       }
@@ -21,6 +29,14 @@ jQuery(document).ready(function () {
     slidesToShow: 2,
     slidesToScroll: 1,
     dots: true,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   });
 
   $('.testimonials-slider').slick({
@@ -38,6 +54,12 @@ jQuery(document).ready(function () {
     focusOnSelect: true,
     arrows: false
   });
+
+  $('body').on('click', '.header-menu-opener', function(e) {
+    e.preventDefault();
+    $('body').toggleClass('menu-open')
+    $('.header-menu-opener').toggleClass('active')
+  })
 });
 
 function initTab() {

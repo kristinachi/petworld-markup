@@ -1,10 +1,14 @@
 .feedback-section {
-  padding: 160px 0;
+  padding: 50px 0;
   background: url(../img/main-bg.png) no-repeat;
   background-position: center;
   background-size: cover;
 
-
+  @media (min-width: $breakpoint-sm) {
+    padding: 160px 0;
+  }
+  
+  
   &__button {
     text-align: center;
   }

@@ -74,8 +74,14 @@
 }
 
 .slick-slide img {
-  display: block;
+  width: 100%;
+
+  @media (min-width: $breakpoint-sm) {
+    display: block;
+  }
 }
+
+
 
 .slick-slide.slick-loading img {
   display: none;
@@ -104,8 +110,8 @@
 }
 
 .slick-arrow {
-  width: 64px;
-  height: 64px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   background-color: $white;
   color: $secondary;
@@ -117,9 +123,19 @@
   position: absolute;
   top: 33.33%;
 
+  @media (min-width: $breakpoint-sm) {
+    width: 64px;
+    height: 64px;
+  }
+
   &:before {
-    font-size: 32px;
+    font-size: 18px;
     font-family: 'icomoon';
+
+    @media (min-width: $breakpoint-sm) {
+      font-size: 32px;
+
+    }
   }
 }
 
