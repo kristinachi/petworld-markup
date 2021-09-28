@@ -178,7 +178,13 @@ textarea {
 }
 
 .col-3 {
-  width: 25%;
+  @media (min-width: $breakpoint-sm)  {
+    width: 33.33%;
+  }
+
+  @media (min-width: $breakpoint-md)  {
+    width: 25%;
+  }
 }
 
 .col-4 {
@@ -219,7 +225,7 @@ svg {
 }
 
 .img-bg {
-  padding-bottom: 60%;
+  padding-bottom: 63%;
   position: relative;
 
   img {
@@ -231,3 +237,5 @@ svg {
     object-fit: cover;
   }
 }
+
+
