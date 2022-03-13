@@ -29,7 +29,7 @@ body {
   font-family: $font-main;
   font-weight: 400;
   font-size: 14px;
-  color: $gray;
+  color: $black;
 }
 
 a {
@@ -104,60 +104,6 @@ textarea {
   }
 }
 
-.title-group {
-  color: $gray;
-  text-align: center;
-  margin-bottom: 20px;
-
-  @media (min-width: $breakpoint-sm) {
-    margin-bottom: 50px;
-  }
-
-  &__subtitle {
-    font-size: 16px;
-
-    @media (min-width: $breakpoint-sm) {
-      font-size: 20px;
-      line-height: 30px;
-    }
-  }
-
-
-
-  &__overhead {
-    color: $secondary;
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 700;
-    padding-bottom: 6px;
-  }
-
-}
-
-.h1 {
-  font-weight: 900;
-  margin-bottom: 20px;
-  font-size: 26px;
-  line-height: 30px;
-
-  @media (min-width: $breakpoint-sm) {
-    line-height: 50px;
-    font-size: 46px;
-  }
-}
-
-.h2 {
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 10px;
-  
-  @media (min-width: $breakpoint-sm) {
-    line-height: 40px;
-    font-size: 36px;
-    margin-bottom: 25px;
-  }
-}
-
 .row {
 
   @media (min-width: $breakpoint-sm) {
@@ -208,12 +154,6 @@ textarea {
   }
 }
 
-.test {
-  min-height: 380px;
-  min-width: 360;
-  background-color: lightcoral;
-}
-
 svg {
   width: 1em;
   height: 1em;
@@ -223,19 +163,3 @@ svg {
 .d-flex {
   display: flex;
 }
-
-.img-bg {
-  padding-bottom: 63%;
-  position: relative;
-
-  img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    object-fit: cover;
-  }
-}
-
-

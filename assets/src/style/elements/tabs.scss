@@ -1,35 +1,35 @@
-.tabs-nav {
-  display: flex;
-  white-space: nowrap;
-  margin: 0 -10px 30px;
-  overflow-x: auto;
+// .tabs-nav {
+//   display: flex;
+//   white-space: nowrap;
+//   margin: 0 -10px 30px;
+//   overflow-x: auto;
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
+//   &::-webkit-scrollbar {
+//     display: none;
+//   }
 
-  @media (min-width: $breakpoint-sm) {
-    margin: 0 -10px 82px;
-  }
+//   @media (min-width: $breakpoint-sm) {
+//     margin: 0 -10px 82px;
+//   }
 
-  li {
-    padding: 0 10px;
+//   li {
+//     padding: 0 10px;
 
-    &:first-child {
-      margin-left: auto;
-    }
+//     &:first-child {
+//       margin-left: auto;
+//     }
 
-    &:last-child {
-      margin-right: auto;
-    }
-  }
+//     &:last-child {
+//       margin-right: auto;
+//     }
+//   }
 
-  &__btn {
-    color: $secondary;
-    border-color: transparent;
+//   &__btn {
+//     color: $secondary;
+//     border-color: transparent;
 
-    &.active, &:hover {
-      border-color: $secondary;
-    }
-  }
-}
+//     &.active, &:hover {
+//       border-color: $secondary;
+//     }
+//   }
+// }

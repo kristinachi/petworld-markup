@@ -1,73 +1,73 @@
-.btn {
-  display: inline-block;
-  min-width: 140px;
-  border-radius: 80px;
-  color: $white;
-  text-align: center;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 700;
-  padding: 5px 14px;
-  transition: all 0.3s ease;
-  border: 2px solid;
+// .btn {
+//   display: inline-block;
+//   min-width: 140px;
+//   border-radius: 80px;
+//   color: $white;
+//   text-align: center;
+//   font-size: 14px;
+//   line-height: 26px;
+//   font-weight: 700;
+//   padding: 5px 14px;
+//   transition: all 0.3s ease;
+//   border: 2px solid;
 
-  &:hover {
-    transition: all 0.3s ease;
-  }
+//   &:hover {
+//     transition: all 0.3s ease;
+//   }
 
-  &.btn-md {
-    min-width: 188px;
-    font-size: 20px;
-    line-height: 42px;
-  }
+//   &.btn-md {
+//     min-width: 188px;
+//     font-size: 20px;
+//     line-height: 42px;
+//   }
 
-  &.primary-btn {
-    background-color: $primary;
-    border-color: $primary;
+//   &.primary-btn {
+//     background-color: $primary;
+//     border-color: $primary;
 
-    &:hover {
-      background-color: transparent;
-      color: $primary;
-    }
+//     &:hover {
+//       background-color: transparent;
+//       color: $primary;
+//     }
 
-    &.outline-btn {
-      background-color: transparent;
-      color: $primary;
+//     &.outline-btn {
+//       background-color: transparent;
+//       color: $primary;
 
-      &:hover {
-        background-color: $primary;
-        color: $white;
-      }
-    }
-  }
+//       &:hover {
+//         background-color: $primary;
+//         color: $white;
+//       }
+//     }
+//   }
 
-  &.secondary-btn {
-    background-color: $secondary;
-    border-color: $secondary;
+//   &.secondary-btn {
+//     background-color: $secondary;
+//     border-color: $secondary;
 
-    &:hover {
-      background-color: transparent;
-      color: $secondary;
-    }
+//     &:hover {
+//       background-color: transparent;
+//       color: $secondary;
+//     }
 
-    &.outline-btn {
-      background-color: transparent;
-      color: $secondary;
+//     &.outline-btn {
+//       background-color: transparent;
+//       color: $secondary;
 
-      &:hover {
-        background-color: $secondary;
-        color: $white;
-      }
-    }
-  }
+//       &:hover {
+//         background-color: $secondary;
+//         color: $white;
+//       }
+//     }
+//   }
 
-  &.dark-btn {
-    background-color: $gray;
-    border-color: $gray;
+//   &.dark-btn {
+//     background-color: $gray;
+//     border-color: $gray;
 
-    &:hover {
-      background-color: transparent;
-      color: $gray;
-    }
-  }
-}
+//     &:hover {
+//       background-color: transparent;
+//       color: $gray;
+//     }
+//   }
+// }
