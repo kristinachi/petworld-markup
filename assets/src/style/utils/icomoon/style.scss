@@ -26,6 +26,111 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-closed-lock {
+  &:before {
+    content: $icon-closed-lock; 
+  }
+}
+.icon-note {
+  &:before {
+    content: $icon-note; 
+  }
+}
+.icon-person {
+  &:before {
+    content: $icon-person; 
+  }
+}
+.icon-send {
+  &:before {
+    content: $icon-send; 
+  }
+}
+.icon-shopping-bag {
+  &:before {
+    content: $icon-shopping-bag; 
+  }
+}
+.icon-sign-out {
+  &:before {
+    content: $icon-sign-out; 
+  }
+}
+.icon-akar-icons_twitter-fill {
+  &:before {
+    content: $icon-akar-icons_twitter-fill; 
+  }
+}
+.icon-open-lock {
+  &:before {
+    content: $icon-open-lock; 
+  }
+}
+.icon-clarity-list {
+  &:before {
+    content: $icon-clarity-list; 
+  }
+}
+.icon-document {
+  &:before {
+    content: $icon-document; 
+  }
+}
+.icon-menu-grid {
+  &:before {
+    content: $icon-menu-grid; 
+  }
+}
+.icon-add-new {
+  &:before {
+    content: $icon-add-new; 
+  }
+}
+.icon-close-x {
+  &:before {
+    content: $icon-close-x; 
+  }
+}
+.icon-arrow-up {
+  &:before {
+    content: $icon-arrow-up; 
+  }
+}
+.icon-letter {
+  &:before {
+    content: $icon-letter; 
+  }
+}
+.icon-instagram1 {
+  &:before {
+    content: $icon-instagram1; 
+  }
+}
+.icon-label {
+  &:before {
+    content: $icon-label; 
+  }
+}
+.icon-arrow-filled-down {
+  &:before {
+    content: $icon-arrow-filled-down; 
+  }
+}
+.icon-viewfinder {
+  &:before {
+    content: $icon-viewfinder; 
+  }
+}
+.icon-arrow-filled-right {
+  &:before {
+    content: $icon-arrow-filled-right; 
+  }
+}
+.icon-telegram {
+  &:before {
+    content: $icon-telegram; 
+  }
+}
 .icon-arrow-down {
   &:before {
     content: $icon-arrow-down; 
@@ -56,3 +161,4 @@
     content: $icon-twitter; 
   }
 }
+
