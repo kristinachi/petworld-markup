@@ -1,0 +1,30 @@
+.search {
+  @media (min-width: $breakpoint-xs) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: $white;
+    font-size: 18px;
+    line-height: 32px;
+    border: 1px solid $gray-2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    @media (min-width: $breakpoint-xs) {
+      max-width: 320px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    @media (min-width: $breakpoint-xs) {
+      width: inherit;
+    }
+  }
+}

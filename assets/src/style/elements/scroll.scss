@@ -1,5 +1,5 @@
 * {
-  @media (min-width: $breakpoint-xl) {
+  @media (min-width: $breakpoint-sm) {
     &::-webkit-scrollbar {
       width: 4px;
     }
@@ -9,12 +9,12 @@
     }
 
     &::-webkit-scrollbar-thumb {
-      background: $purple;
+      background: $blue;
       border-radius: 4px;
     }
 
     &::-webkit-scrollbar-thumb:hover {
-      background: $purple;
+      background: $blue;
     }
   }
 }

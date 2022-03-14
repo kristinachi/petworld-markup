@@ -29,7 +29,7 @@ body {
   font-family: $font-main;
   font-weight: 400;
   font-size: 14px;
-  color: $black;
+  color: $gray;
 }
 
 a {
@@ -98,10 +98,7 @@ textarea {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-
-  @media (min-width: $breakpoint-lg) {
-    max-width: 1200px;
-  }
+  max-width: 1080px;
 }
 
 .row {

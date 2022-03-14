@@ -1,73 +1,47 @@
-// .btn {
-//   display: inline-block;
-//   min-width: 140px;
-//   border-radius: 80px;
-//   color: $white;
-//   text-align: center;
-//   font-size: 14px;
-//   line-height: 26px;
-//   font-weight: 700;
-//   padding: 5px 14px;
-//   transition: all 0.3s ease;
-//   border: 2px solid;
+.btn {
+  display: inline-block;
+  min-width: 154px;
+  border-radius: 10px;
+  color: $white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 10px 50px;
+  transition: all 0.3s ease;
+  border: 1px solid;
 
-//   &:hover {
-//     transition: all 0.3s ease;
-//   }
+  &:hover {
+    transition: all 0.3s ease;
+  }
 
-//   &.btn-md {
-//     min-width: 188px;
-//     font-size: 20px;
-//     line-height: 42px;
-//   }
+  &.primary-btn {
+    background-color: $blue;
+    border-color: $blue;
 
-//   &.primary-btn {
-//     background-color: $primary;
-//     border-color: $primary;
+    &:hover {
+      background-color: $blue-1;
+      color: $white;
+    }
+  }
 
-//     &:hover {
-//       background-color: transparent;
-//       color: $primary;
-//     }
+  &.secondary-btn {
+    background-color: $orange;
+    border-color: $orange;
+    color: $gray;
 
-//     &.outline-btn {
-//       background-color: transparent;
-//       color: $primary;
+    &:hover {
+      background-color: $orange-1;
+    }
+  }
 
-//       &:hover {
-//         background-color: $primary;
-//         color: $white;
-//       }
-//     }
-//   }
+  &.fake-btn {
+    padding: 0;
+    color: $gray;
+    min-width: 0;
+    border: 0;
 
-//   &.secondary-btn {
-//     background-color: $secondary;
-//     border-color: $secondary;
-
-//     &:hover {
-//       background-color: transparent;
-//       color: $secondary;
-//     }
-
-//     &.outline-btn {
-//       background-color: transparent;
-//       color: $secondary;
-
-//       &:hover {
-//         background-color: $secondary;
-//         color: $white;
-//       }
-//     }
-//   }
-
-//   &.dark-btn {
-//     background-color: $gray;
-//     border-color: $gray;
-
-//     &:hover {
-//       background-color: transparent;
-//       color: $gray;
-//     }
-//   }
-// }
+    &:hover {
+      color: $blue-1;
+    }
+  }
+}

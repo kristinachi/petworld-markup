@@ -4,22 +4,21 @@ $font-main: "Montserrat", sans-serif;
 $white: #ffffff;
 $black: #000000;
 
-$purple: #5B00FB;
-$purple-1: #BB82DB;
-$pink: #D70BCA;
-$dark: #09010D;
-$dark-2: #101029;
-$dark-3: #1D0F35;
-$dark-4: #1E1E37;
-$gray: #D0D0D0;
-$gray-1:#7C7C7C;
-$blue: #636DC1;
-$gradient: radial-gradient(circle, rgba(93,0,250,1) 0%, rgba(215,11,202,1) 100%);
-$radial: radial-gradient(circle, rgba(187,130,219,1) 0%, rgba(99,109,193,1) 15%, rgba(29,15,53,1) 100%);
+$blue: #3366FF;
+$blue-1: #2A50C1;
+$gray: #2D2D2D;
+$gray-1: #BCBCBC;
+$gray-2: #D0D0D0;
+$lightpink:#F7F5FD;
+$orange: #F8D57E;
+$orange-1: #DFBF70;
+$orange-3: #FCFAF5;
+$mint: #F2FAF8;
+$purple: #ECE7FB;
 
-
-// Breakpoints
-$breakpoint-sm: 768px;
+// Breakpoints:
+$breakpoint-xs: 768px;
+$breakpoint-sm: 992px;
 $breakpoint-md: 1024px;
 $breakpoint-lg: 1200px;
 $breakpoint-xl: 1600px;
